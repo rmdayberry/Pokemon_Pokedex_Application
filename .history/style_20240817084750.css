@@ -4,14 +4,18 @@ body {
   background-color: #fcf4d9;
 }
 h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 3.5em;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to right #6a11cb, #2575fc);
+  -webkit-background-clip: text;
   color: #ffa952;
+  color: transparent;
+  animation: fadein 2s ease-in-out;
 }
 .pokecard {
   border: 1px solid #ddd;
@@ -27,7 +31,7 @@ h1 {
 }
 
 .pokedex.winner {
-  border: 4px solid #ef5a5a;
+  border: 2px solid #ef5a5a;
 }
 .pokedex-cards {
   display: flex;

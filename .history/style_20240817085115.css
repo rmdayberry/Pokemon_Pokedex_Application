@@ -27,7 +27,7 @@ h1 {
 }
 
 .pokedex.winner {
-  border: 4px solid #ef5a5a;
+  border: 2px solid #ef5a5a;
 }
 .pokedex-cards {
   display: flex;
