@@ -1,7 +1,8 @@
 function Pokecard(props) {
   const { id, name, type, base_experience } = props;
 
-  const imgSrc = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${id}.png`;
+  const imgSrc =
+    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonIndex}.png";
 
   return (
     <div className="pokecard">
